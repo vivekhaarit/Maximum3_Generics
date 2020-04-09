@@ -46,4 +46,26 @@ public class TestMaximum {
         Float expectation = 30.1f;
         Assert.assertEquals(expectation,max1);
     }
+
+    @Test
+    public void checkWhether_firstString_isMaxString() {
+        Maximum maximum = new Maximum();
+        String max3= maximum.maxString("Apple","Peach","Banana");
+        String expectation = "Peach";
+        Assert.assertEquals(expectation,max3);
+    }
+    @Test
+    public void checkWhether_secondString_isMaxString() {
+        Maximum maximum = new Maximum();
+        String max2= maximum.maxString("Peach","Banana","Apple");
+        String expectation = "Peach";
+        Assert.assertEquals(expectation,max2);
+    }
+    @Test
+    public void checkWhether_thirdString_isMaxString() {
+        Maximum maximum = new Maximum();
+        String max1= maximum.maxString("Banana","Apple","Peach");
+        String expectation = "Peach";
+        Assert.assertEquals(expectation,max1);
+    }
 }
