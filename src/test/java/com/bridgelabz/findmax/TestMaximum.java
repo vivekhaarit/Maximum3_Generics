@@ -25,4 +25,25 @@ public class TestMaximum {
         Integer expectation = 30;
         Assert.assertEquals(expectation,max1);
     }
+    @Test
+    public void checkWhether_firstNo_isMaxFloat() {
+        Maximum maximum = new Maximum();
+        Float max3= maximum.largestFloat(30.1f,10.2f,20.5f);
+        Float expectation = 30.1f;
+        Assert.assertEquals(expectation,max3);
+    }
+    @Test
+    public void checkWhether_secondNo_isMaxFloat() {
+        Maximum maximum = new Maximum();
+        Float max2= maximum.largestFloat(20.5f,30.1f,10.2f);
+        Float expectation = 30.1f;
+        Assert.assertEquals(expectation,max2);
+    }
+    @Test
+    public void checkWhether_thirdNo_isMaxFloat() {
+        Maximum maximum = new Maximum();
+        Float max1= maximum.largestFloat(10.2f,20.5f,30.1f);
+        Float expectation = 30.1f;
+        Assert.assertEquals(expectation,max1);
+    }
 }
