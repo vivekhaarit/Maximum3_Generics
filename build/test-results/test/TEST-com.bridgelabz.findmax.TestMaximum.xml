@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.findmax.TestMaximum" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-09T06:50:47" hostname="ubuntu" time="0.019">
+  <properties/>
+  <testcase name="checkWhether_firstNo_isMax" classname="com.bridgelabz.findmax.TestMaximum" time="0.015"/>
+  <testcase name="checkWhether_secondNo_isMax" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
+  <testcase name="checkWhether_thirdNo_isMax" classname="com.bridgelabz.findmax.TestMaximum" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
