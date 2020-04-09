@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.findmax.TestMaximum" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-09T07:14:49" hostname="ubuntu" time="0.012">
+<testsuite name="com.bridgelabz.findmax.TestMaximum" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-09T07:21:28" hostname="ubuntu" time="0.011">
   <properties/>
-  <testcase name="checkWhether_firstString_isMaxString" classname="com.bridgelabz.findmax.TestMaximum" time="0.005"/>
+  <testcase name="checkWhether_firstString_isMaxString" classname="com.bridgelabz.findmax.TestMaximum" time="0.004"/>
   <testcase name="checkWhether_secondNo_isMaxInteger" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
-  <testcase name="checkWhether_firstNo_isMaxFloat" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
+  <testcase name="checkWhether_firstNo_isMaxFloat" classname="com.bridgelabz.findmax.TestMaximum" time="0.001"/>
   <testcase name="checkWhether_thirdNo_isMaxFloat" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
-  <testcase name="checkWhether_thirdNo_isMaxInteger" classname="com.bridgelabz.findmax.TestMaximum" time="0.001"/>
+  <testcase name="checkWhether_thirdNo_isMaxInteger" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
   <testcase name="checkWhether_secondString_isMaxString" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
   <testcase name="checkWhether_thirdString_isMaxString" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
-  <testcase name="checkWhether_secondNo_isMaxFloat" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
+  <testcase name="checkWhether_secondNo_isMaxFloat" classname="com.bridgelabz.findmax.TestMaximum" time="0.001"/>
   <testcase name="checkWhether_firstNo_isMaxInteger" classname="com.bridgelabz.findmax.TestMaximum" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
